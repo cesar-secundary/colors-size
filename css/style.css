@@ -1,0 +1,47 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+
+.measure{
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.px-measure{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.percent-measure{
+    max-width: 100%;
+    max-height: 100%;
+    width: 30%;
+    height: 300px;
+}
+
+.em-measure{
+    width: 2em;
+    height: 2em;
+}
+
+.rem-measure{
+    width: 2rem;
+    height: 2rem;
+}
+
+.vw-measure {
+    width: 10vw; 
+    height: 10vw;
+}
+
+.vh-measure {
+    width: 10vh;
+    height: 10vh;
+}
